@@ -1,2 +1,14 @@
 Postman es una plataforma de colaboración y herramientas para el desarrollo de APIs que permite diseñar, probar, documentar y monitorear APIs de manera eficiente. Es muy usado en el desarrollo de software para garantizar que las APIs funcionen correctamente y para facilitar la comunicación y colaboración entre equipos.
 
+------------------
+
+Hasta ahora hemos visto cómo podemos mandar datos a través de parámetros, pero hay ciertos casos en donde debemos sí o sí utilizar la cabecera para enviar información, por ejemplo en los tokens. Esto para darle mayor seguridad y que no viajen como parámetros.
+
+En función de la información que la API vaya a recibir
+-------------------
+
+Una COLECCIÓN: Es un espacio en donde guardamos un conjunto de peticiones, las cuales podemos importar y exportar, estas se exportan en formato JSON y es lo que utilizamos al trabajar en equipo
+
+-------------------
+
+Todas las peticiones tienen algo en común: el dominio. Por lo tanto si todas tienen el mismo URL, podemos usar una variable de entorno para eficientizar las peticiones. Podemos poner la variable en el URL como: {{nombreDeLaVariable}}, indicando en la interfza de que utilizaremos una variable de entorno

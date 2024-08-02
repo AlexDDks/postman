@@ -1,0 +1,17 @@
+En algunos casos, vamos a necesitar autenticación para utilizar APIs, por lo tanto en el ejemplo que estamos viendo, podemos observar cómo se realiza la autenticación, ingresando una URL de prueba de POSTMAN a un sitio que lo requiere. Sino mandamos nada, entonces nos retorna el servidor un mensaje de error 401 de no autorizado.
+
+Para poder acceder, debemos autenticarnos. En la interfaz gráfica existe un espacio destinado para agregar los argumentos necesarios.
+
+--------------------
+En algunos casos no se necesita de autenticación básica, sino de un token, la cual es una cadena encriptada. Este nos lo provee una plataforma y se usa como llave de acceso a recursos de una plataforma.
+
+JSON Web Token es un estándar abierto que define una forma compacta y autónoma para transmitir información de manera segura entre partes como un objeto JSON
+
+https://httpbin.org/bearer Accediendo a la siguiente URL se puede simular una situación en donde se necesite autenticación con JWT La diferencia on el caso anterior es que nosotros debemos autenticar con el apartado Bearer token y podemos poner cualquier cadena de texto, porque al ser un token, pues ellos no nos ofrecen una random, ya que nosotros la podemos obtener de mil formar diferentes, por ejemplo al mandar cualquier cadena de texto, se me retornó:
+
+{
+    "authenticated": true,
+    "token": "suihfuwehfhuuheyfgygefgeufgueq"
+}
+
+OJO, QUE NO ESTAMOS ENVIANDO EL TOKEN COMO PARÁMETRO DIRÉCTAMENTE NOSOTROS, SINO QUE ESTAMOS AÑADIENDO EL TOKEN COMO MÉTODO DE AUTENTICACIÓN Y ESE TOKEN VIAJA POR DEFECTO EN LA CABECERA DE LA SOLICITUD

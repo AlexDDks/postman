@@ -78,15 +78,14 @@ Para usar la API de Google Maps, necesitas obtener una clave API desde el Google
 Paso 2: Realizar una Solicitud a la API de Geocoding
 La API de Geocoding de Google Maps permite convertir direcciones en coordenadas geográficas (latitud y longitud).
 
-URL del Endpoint
-plaintext
-Copiar código
+URL del Endpoint:
 https://maps.googleapis.com/maps/api/geocode/json
+
 Parámetros de la Solicitud
 address: La dirección que deseas geocodificar.
 key: Tu clave API de Google Maps.
+
 Ejemplo de Solicitud
 plaintext
-Copiar código
 https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+Vie
     

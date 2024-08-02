@@ -1,0 +1,5 @@
+Se hizo un ejemplo con un JSON que se envía a la API. 
+
+Por ejemplo si tenemos variables que queremos que cambien en función de la situación, es acá donde los utilizamos. Existen algunas ya preestablecidas por Postman, por ejemplo: {{$randomFirstName}}. Se puede usar en cualquier lado de la petición : cabeceras, body, etc.
+
+------------
