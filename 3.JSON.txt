@@ -1,0 +1,14 @@
+JSON: JavaScript Object Notation, es un formato ligero de intercambio de datos, independiente del lenguage, se considera de alto nivel para los humanos.
+
+Las computadoras pueden leer y generar este formato de texto.
+
+El formato JSON sirve para intercambiar datos por ejemplo desde Python hacia Java u otro lenguaje, ya que ese lenguaje es el cual ellos van a entender.
+
+Un formato JSON tiene forma de un objeto en JS con comillas en la "clave" : valorDeCualquierTipo, cuando tenemos más de un elemento, entonces se estila incluirlo en un array, podemos hacerlo tan complejo como queramos.
+
+------------------
+
+Entonces API es el puente como habíamos visto que une a las aplicaciones y utiliza JSON como lenguaje para comunicarse.
+
+Uno puede enviar una petición al servidor y no nos interesa en qué idioma está escrito ese servidor/app y ese JSON de respuesta es el que podemos manipular.
+

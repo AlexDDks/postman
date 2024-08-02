@@ -1,0 +1,2 @@
+Postman es una plataforma de colaboración y herramientas para el desarrollo de APIs que permite diseñar, probar, documentar y monitorear APIs de manera eficiente. Es muy usado en el desarrollo de software para garantizar que las APIs funcionen correctamente y para facilitar la comunicación y colaboración entre equipos.
+

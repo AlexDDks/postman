@@ -1,0 +1,14 @@
+Los tipos de datos se utilizan para clasificar los datos con los que cuenta el ordenador para diferentes fines.
+
+Los numéricos:
+    -Enteros: aquellos sin punto decimal
+    -Reales: con punto decimal.
+
+Texto:
+    - Caracteres: almacenan únicamente caracteres del código ASCII. SÓLO ALMACENA UN CARACTER ALFANUMÉRICO.
+    - Cadena de texto: un conjunto de caracteres.
+
+Lógicos:
+    - Booleano: almacenan dos posibles valores: true o false
+    - Nulos: representan cuando una variable no existe
+

@@ -1,0 +1,92 @@
+Application Programming Interface
+
+Clase Extensa sobre APIs
+¿Qué es una API?
+API significa Interfaz de Programación de Aplicaciones (Application Programming Interface). Es un conjunto de definiciones y protocolos que permite que diferentes aplicaciones se comuniquen entre sí. Las APIs permiten que los desarrolladores accedan a ciertas funcionalidades o datos de otra aplicación, servicio o sistema sin tener que entender los detalles internos de su funcionamiento.
+
+Componentes de una API
+Endpoints: Son las URL a las que se pueden enviar las solicitudes.
+Cada endpoint generalmente corresponde a una funcionalidad específica.
+
+La solicitud enviada a un endpoint. Incluye la URL, el método HTTP, los encabezados y, en algunos casos, un cuerpo de solicitud (request body).
+
+Response: La respuesta devuelta por el servidor, que incluye un código de estado HTTP, encabezados y un cuerpo de respuesta (response body).
+
+Headers: Información adicional enviada con la solicitud o la respuesta, como el tipo de contenido, la autenticación, etc.
+Body:
+
+El contenido de la solicitud o la respuesta, normalmente en formato JSON o XML.
+
+
+
+Clase Extensa sobre APIs
+¿Qué es una API?
+API significa Interfaz de Programación de Aplicaciones (Application Programming Interface). Es un conjunto de definiciones y protocolos que permite que diferentes aplicaciones se comuniquen entre sí. Las APIs permiten que los desarrolladores accedan a ciertas funcionalidades o datos de otra aplicación, servicio o sistema sin tener que entender los detalles internos de su funcionamiento.
+
+Componentes de una API
+Endpoints:
+
+Son las URL a las que se pueden enviar las solicitudes.
+Cada endpoint generalmente corresponde a una funcionalidad específica.
+Métodos HTTP:
+
+GET: Para obtener datos.
+POST: Para enviar datos o crear nuevos recursos.
+PUT: Para actualizar recursos existentes.
+DELETE: Para eliminar recursos.
+Request:
+
+La solicitud enviada a un endpoint. Incluye la URL, el método HTTP, los encabezados y, en algunos casos, un cuerpo de solicitud (request body).
+Response:
+
+La respuesta devuelta por el servidor, que incluye un código de estado HTTP, encabezados y un cuerpo de respuesta (response body).
+Headers:
+
+Información adicional enviada con la solicitud o la respuesta, como el tipo de contenido, la autenticación, etc.
+Body:
+
+El contenido de la solicitud o la respuesta, normalmente en formato JSON o XML.
+
+
+¿Cómo Funciona una API?
+Cuando una aplicación necesita realizar una acción que depende de otra aplicación o servicio, envía una solicitud a un endpoint específico de la API. La API procesa esta solicitud y devuelve una respuesta con los datos o la confirmación de la acción realizada.
+--------------------------
+
+
+Son un conjunto de instrucciones y protocoles que se utilizan para integrar el software entre aplicaciones. Permite que productos y servicios se comuniquen entre sí, sin necesidad de saber cómo están implementados.
+
+Es como un puente que comunica dos aplicaciones, sin necesidad de que alguna de estas sepan cómo están implementados, en qué lenguaje, arquitectura, sistema operativo, etc.
+
+Por ejemplo, si tenemos una app en PHP y otra en Python, puedo crear una API que sirva de puente para comunicarlas. La API se encarga de que la comunicación entre estas sea posible.
+
+La relación con postman: 
+    Tenemos muchos lenguajes de programación con sus propias reglas y limitaciones y específicamente en el área de los tipos de datos, no es lo mismo crear variables en PHP o en JS, etc... Entonces el manipular estos tipos de datos entre estos es EXCESIVAMENTE DIFÍCIL. 
+
+    Entonces para que alguna aplicación externa nos mande un tipo de dato sin que haya alteraciones en mi app, debemos utilizar un lenguaje común entre todos los sistemas y es el que conocemos como JSON. Es un formto de texto utilizado para la transferencia de datos entre servidores y aplicaciones.
+
+    No importa cómo vengan los datos, porque todos los lenguajes de programación lo entienden, es el idioma en común.
+
+
+------------------------------
+Ejemplo de API: Google Maps
+Google Maps API es un conjunto de APIs desarrolladas por Google que permite a los desarrolladores integrar Google Maps en sus propias aplicaciones y sitios web. Google Maps API ofrece varias funcionalidades, como mostrar mapas, calcular rutas, buscar lugares, entre otros.
+
+Ejemplo: Uso de Google Maps API para Obtener Coordenadas de una Dirección
+Paso 1: Obtener una clave API
+Para usar la API de Google Maps, necesitas obtener una clave API desde el Google Cloud Platform.
+
+Paso 2: Realizar una Solicitud a la API de Geocoding
+La API de Geocoding de Google Maps permite convertir direcciones en coordenadas geográficas (latitud y longitud).
+
+URL del Endpoint
+plaintext
+Copiar código
+https://maps.googleapis.com/maps/api/geocode/json
+Parámetros de la Solicitud
+address: La dirección que deseas geocodificar.
+key: Tu clave API de Google Maps.
+Ejemplo de Solicitud
+plaintext
+Copiar código
+https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+Vie
+    

@@ -1,0 +1,24 @@
+La estructura cliente servidor es la base de las comunicaciones a través de la red.
+
+Los clientes son las entidades que hacen peticiones al servidor, mientras que el servidor/es que reciben las peticiones. En estos intercambios de datos podemos tener audio, video, páginas, etc...
+
+Clientes: computadora, móvil, etc.
+Servidor: computadoras con softwares necesarios para procesar entre otras cosas operaciones método http
+
+Para que se de esta comunicación hay una serie de protocolos/reglas, el cual es el HTTP, el cual tiene varias partes:
+
+Cabeceras: espacio destinado para metadatos como cookies, caché, tokens, lenguaje del equipo que realiza la petición, ubicación del equipo, cualquier información en general.
+
+----------------------------
+Códigos de respuestas
+
+Cuando el cliente realiza una petición, el servidor tiene que devolverle algo, conocido como códigos de respuesta:
+
+1xx: respuesta informativa
+2xx: Respuesta correcta (la petición se hizo correctamente)
+3xx: Redirección
+4xx: Error del cliente, por ejemplo el 404 cuando entramos a una página que no existe
+5xx: Error del servidor, depende 100% de los desarrolladores de la aplicación.
+
+
+El protocolo HTTP también contiene verbos: los que ya conocemos GET, POST, PUT, DELETE
