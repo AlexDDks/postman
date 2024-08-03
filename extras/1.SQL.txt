@@ -1,0 +1,48 @@
+SQL (Structured Query Language) es un lenguaje de programación diseñado para gestionar y manipular bases de datos relacionales. Aquí están algunas de las operaciones básicas de SQL:
+
+TIPOS DE DATOS:
+
+Tipos de Datos Numéricos
+Enteros:
+
+INT: Un entero estándar, que puede ser positivo o negativo. Tiene un rango de -2,147,483,648 a 2,147,483,647.
+SMALLINT: Un entero pequeño, con un rango de -32,768 a 32,767.
+BIGINT: Un entero grande, con un rango de -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807.
+TINYINT: Un entero muy pequeño, generalmente con un rango de 0 a 255.
+
+Decimales y Flotantes:
+FLOAT: Un número de punto flotante, útil para valores de precisión simple.
+DOUBLE: Un número de punto flotante de doble precisión.
+DECIMAL(p, s): Un número decimal exacto, donde p es la precisión total y s es la escala (número de dígitos a la derecha del punto decimal).
+
+Tipos de Datos de Caracteres
+Cadenas de Caracteres:
+CHAR(n): Una cadena de longitud fija de n caracteres. Si la longitud de los datos es menor que n, se rellenan con espacios.
+VARCHAR(n): Una cadena de longitud variable de hasta n caracteres. Solo utiliza el espacio necesario para los datos almacenados.
+TEXT: Una cadena de longitud variable de hasta 65,535 caracteres.
+
+Tipos de Datos de Fecha y Hora
+Fechas y Horas:
+DATE: Una fecha (año, mes, día).
+TIME: Una hora (hora, minuto, segundo).
+DATETIME: Una combinación de fecha y hora.
+TIMESTAMP: Similar a DATETIME, pero con la capacidad de ser automáticamente inicializado y actualizado a la fecha y hora actuales.
+YEAR: Un año de dos o cuatro dígitos.
+
+Tipos de Datos Binarios
+Datos Binarios:
+BINARY(n): Datos binarios de longitud fija de n bytes.
+VARBINARY(n): Datos binarios de longitud variable de hasta n bytes.
+BLOB: Un objeto binario grande que puede almacenar datos binarios de gran tamaño, como imágenes o archivos multimedia.
+Tipos de Datos Booleanos
+
+Booleanos:
+BOOLEAN: Representa un valor verdadero o falso. En muchos sistemas SQL, BOOLEAN es sinónimo de TINYINT con 0 representando FALSE y 1 representando TRUE.
+
+Tipos de Datos Especiales
+Enumeraciones y Conjuntos:
+ENUM: Un tipo de dato enumerado que permite un conjunto predefinido de valores. Por ejemplo, ENUM('small', 'medium', 'large').
+SET: Similar a ENUM, pero permite almacenar múltiples valores del conjunto predefinido. Por ejemplo, SET('red', 'green', 'blue').
+
+
+------------------------

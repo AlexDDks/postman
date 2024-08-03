@@ -1,0 +1,33 @@
+API RESTful = se refiere a un tipo de aplicación en el lado del servidor que contiene una serie de rutas establecidas para poder ejecutar métodos HTTP. Cada ruta se supone con un método y que puede ser utilizada por cualquier tipo de dispositivo/cliente.
+
+Básicamente métodos para poder realizar las operaciones CRUD.
+
+Es una de las aplicaciones web más utilizadas, por el tipo de operaciones que puede soportar.
+
+Según mi profesor:
+API RESTful como aplicación web del lado del servidor:
+
+Correcto: Una API RESTful es una aplicación que se ejecuta en el servidor y expone una serie de rutas (endpoints) que permiten interactuar con la aplicación a través de peticiones HTTP. Estas rutas permiten realizar operaciones sobre los recursos de la aplicación.
+Operaciones CRUD:
+
+Correcto: CRUD es el acrónimo de Create, Read, Update y Delete, que son las cuatro operaciones básicas que se pueden realizar sobre los datos. Una API RESTful implementa estas operaciones generalmente a través de métodos HTTP específicos:
+Create: Utiliza el método POST para crear nuevos recursos.
+Read: Utiliza el método GET para leer o recuperar recursos.
+Update: Utiliza el método PUT o PATCH para actualizar recursos existentes.
+Delete: Utiliza el método DELETE para eliminar recursos.
+Interfaz gráfica y funcionalidades del lado del cliente:
+
+Correcto: En una arquitectura de cliente-servidor, el cliente (generalmente una aplicación web o móvil) tiene una interfaz gráfica que interactúa con la API RESTful del servidor. El cliente envía datos y comandos parametrizados a través de peticiones HTTP a la API, y el servidor se encarga de procesar estos datos según la lógica de negocio definida.
+MVC como una de las arquitecturas más utilizadas:
+
+Correcto: MVC (Model-View-Controller) es un patrón de diseño muy popular en el desarrollo de aplicaciones web. Divide la aplicación en tres componentes principales:
+Model (Modelo): Maneja la lógica de datos y la interacción con la base de datos.
+View (Vista): Gestiona la presentación de los datos, generalmente es la interfaz gráfica.
+Controller (Controlador): Maneja la lógica de la aplicación, recibe las entradas del usuario a través de la Vista, interactúa con el Modelo y devuelve la respuesta adecuada a la Vista.
+Métodos HTTP para CRUD:
+
+Correcto: Cada operación CRUD se asocia típicamente con un método HTTP:
+Create (Crear): POST
+Read (Leer): GET
+Update (Actualizar): PUT (o PATCH para actualizaciones parciales)
+Delete (Eliminar): DELETE

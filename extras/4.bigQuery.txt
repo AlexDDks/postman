@@ -1,0 +1,8 @@
+BigQuery es una herramienta de análisis de datos totalmente gestionada y altamente escalable de Google Cloud Platform (GCP). Está diseñada para procesar grandes volúmenes de datos de manera rápida y eficiente utilizando SQL estándar. Aquí tienes una introducción desde los conceptos básicos hasta algunos ejemplos prácticos.
+
+Conceptos Básicos de BigQuery
+Data Warehouse: BigQuery es un almacén de datos en la nube que permite el análisis de datos a gran escala.
+SQL Estándar: Utiliza SQL para consultar los datos, lo que lo hace accesible para personas familiarizadas con SQL.
+Escalabilidad: Puede manejar petabytes de datos sin necesidad de administración de infraestructura.
+Sin Servidor: No hay necesidad de gestionar servidores, BigQuery se encarga de todo el backend.
+Precios: BigQuery cobra por la cantidad de datos procesados por consulta y por el almacenamiento.
